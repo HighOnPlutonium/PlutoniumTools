@@ -38,7 +38,7 @@ public class Main
                 new ShutdownCommand());
         
         String token = Token.token;
-		JDABuilder.createDefault(token )
+		JDABuilder.createDefault(token)
                 .addEventListeners(waiter, client.build(), new MABMessageEvent())
                 .build();
         if ( args.length != 0 )
