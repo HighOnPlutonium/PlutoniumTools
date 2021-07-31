@@ -37,7 +37,8 @@ public class Main
 
                 new ShutdownCommand());
         
-        JDABuilder.createDefault("ODAyOTEzOTgxNzE5MTE3ODQ0.YA2J6g.9jjWCV0cg6cMj_WjwwUUGMMOPhM")
+        String token = Token.token;
+		JDABuilder.createDefault(token )
                 .addEventListeners(waiter, client.build(), new MABMessageEvent())
                 .build();
         if ( args.length != 0 )
