@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="JDA-4.2.0_DEV-withDependencies.jar" sourcepath="C:/Users/Joel/Desktop/Other/workspace/java/PlutoniumTools/JDA-4.2.0_DEV-sources.jar"/>
+	<classpathentry kind="lib" path="jda-utilities-3.0.5-all.jar" sourcepath="C:/Users/Joel/Desktop/Other/workspace/java/PlutoniumTools/jda-utilities-3.0.5-sources.jar"/>
+	<classpathentry kind="lib" path="slf4j-api-1.7.9.jar"/>
+	<classpathentry kind="lib" path="slf4j-simple-1.7.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
