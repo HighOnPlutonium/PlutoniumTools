@@ -1,5 +1,7 @@
 package joelkral.PlutoniumTools;
 
+import joelkral.PlutoniumTools.commands.EchoCommand;
+import joelkral.PlutoniumTools.commands.FCommand;
 import joelkral.PlutoniumTools.events.*;
 
 import com.jagrosh.jdautilities.command.CommandClientBuilder;
@@ -34,7 +36,10 @@ public class Main
                 new AboutCommand(Color.BLUE, "HighOnPlutoniums Bot",
                         new String[]{"Nothing here yet, sorry"},
                         new Permission[]{Permission.ADMINISTRATOR}),
-
+                
+                new FCommand(),
+                new EchoCommand(),
+                
                 new ShutdownCommand());
         
         String token = Token.token;

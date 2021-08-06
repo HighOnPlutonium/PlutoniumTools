@@ -31,6 +31,15 @@ public class MABMessageEvent extends ListenerAdapter
 		
 		switch (messageSent) 
 		{
+		case "marry":
+			event.getChannel().sendMessage("I accept").queue();
+			break;
+		case "french":
+			event.getChannel().sendMessage("baguette").queue();
+			break;
+		case "france":
+			event.getChannel().sendMessage("france should fucking sink to the ground of the ocean").queue();
+			break;
 		case "I want to make a bot":
 		    event.getChannel().sendMessage("no").queue();
 			break;
